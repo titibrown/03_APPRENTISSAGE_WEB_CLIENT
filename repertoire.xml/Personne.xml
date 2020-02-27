@@ -1,48 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <repertoire>
-  <!-- John DOE -->
-
-
-  <personne sexe="masculin">
-    <nom>DOE</nom>
-    <prenom>John</prenom>
-    <adresse>
-      <numero>7</numero>
-      <voie type="impasse">impasse du chemin</voie>
-      <codePostal>75015</codePostal>
-      <ville>PARIS</ville>
-      <pays>FRANCE</pays>
-    </adresse>
-    <telephones>
-      <telephone type="fixe">01 02 03 04 05</telephone>
-      <telephone type="portable">06 07 08 09 10</telephone>
-    </telephones>
-    <emails>
-      <email type="personnel">john.doe@wanadoo.fr</email>
-      <email type="professionnel">john.doe@societe.com</email>
-    </emails>
-  </personne>
-	
-  <!-- Marie POPPINS -->
+  
 
   
-  
-  <personne sexe="feminin">
-    <nom>POPPINS</nom>
-    <prenom>Marie</prenom>
-    <adresse>
-      <numero>28</numero>
-      <voie type="avenue">avenue de la république</voie>
-      <codePostal>13005</codePostal>
-      <ville>MARSEILLE</ville>
-      <pays>FRANCE</pays>
-    </adresse>
-    <telephones>
-      <telephone type="professionnel">04 05 06 07 08</telephone>
-    </telephones>
-    <emails>
-      <email type="professionnel">contact@poppins.fr</email>
-    </emails>
-  </personne>
+<personne> sexe = "masculin">
+<nom>Bro</nom>
+<prenom>Tim</prenom>
+<adresse>
+<numéro>1</numéro>
+<voie type = "Rue">de la </voie>
+<code_postal>71</code_postal>
+<ville>Col</ville>
+<departement>Saone et loire</departement>
+<region>Bourgogne</region>
+<pays>France</pays>
+ </adresse>
+<telephone>
+<telephone type="fixe">03</telephone> 
+<telephone type="portable">06</telephone>
+</telephone>  
+<emails>
+<email type="personnel">@free.fr</email>
+</emails>
+</personne>
+
 </repertoire>
