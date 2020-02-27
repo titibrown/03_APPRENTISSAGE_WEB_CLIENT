@@ -35,7 +35,7 @@
 
     <!-- Troisième Bouteille-->
 
-    <bouteille type="eau plate">
+    <bouteille type="Eau plate">
         <marque>Volvic</marque>
         <contenance>inconnu </contenance>
         <ion positifcalcium="11,5 mg/l "></ion>
