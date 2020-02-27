@@ -4,49 +4,31 @@
 
     <!-- première bouteille-->
 
-    <bouteille type="eau plate">
-        <marque>Cristaline</marque>
-        <contenance>150 cl </contenance>
-        <ion positifcalcium="71 mg/l "></ion>
-        <ion positifmagnesium="5,5 mg/l"></ion>
-        <ion negatifchlorure="20mg/l"></ion>
-        <ion negatifnitrates="1 mg/l"></ion>
-        <ph>7.45</ph>
-        <Lieu>St-Cyr la source</Lieu>
-        <departement>Loiret</departement>
-        <codebarre>3274080005003</codebarre>
-        <etatbouteille>sale</etatbouteille>
+    <bouteille type="plastique" code_barre="3274080005003">
+        <marque>Cristalline</marque>
+        <source departement="Loiret">St-Cyr la Source</source>
+        <volume unite="cL">150</volume>
+        <donnees_chimiques>
+            <pH>7,45</pH>
+            <concentration_en_ion>
+                <ion_positif>
+                    <calcium unite="mg/L">71</calcium>
+                    <magnesium unite="mg/L">5,5</magnesium>
+                </ion_positif>
+                <ion_negatif>
+                    <chlorure unite="mg/L">20</chlorure>
+                    <nitrate unite="mg/L">1</nitrate>
+                </ion_negatif>
+            </concentration_en_ion>
+            <materiaux_presents>Fer</materiaux_presents>
+        </donnees_chimiques>
     </bouteille>
+
     <!-- deuxieme Bouteille-->
 
-    <bouteille type="eau plate">
-        <marque>Cristaline</marque>
-        <contenance>50 cl </contenance>
-        <ion positifcalcium="98 mg/l "></ion>
-        <ion positifmagnésium="4 mg/l"></ion>
-        <ion negatifchlorures="3,6mg/l"></ion>
-        <ion negatifnitrates="2 mg/l"></ion>
-        <ph>7.4</ph>
-        <source>Aurèle</source>
-        <departement>Alpes Maritimes</departement>
-        <codebarre>3268840001008</codebarre>
-        <etatbouteille>Inconnu</etatbouteille>
-    </bouteille>
-
+ 
     <!-- Troisième Bouteille-->
 
-    <bouteille type="Eau plate">
-        <marque>Volvic</marque>
-        <contenance>inconnu </contenance>
-        <ion positifcalcium="11,5 mg/l "></ion>
-        <ion positifmagnésium="8 mg/l"></ion>
-        <ion negatifchlorures="13,5mg/l"></ion>
-        <ion negatifnitrates="6,3 mg/l"></ion>
-        <ph>7</ph>
-        <source>aurèle</source>
-        <departement>Inconnu</departement>
-        <codebarre>3057640117008</codebarre>
-        <etatbouteille>Inconnu</etatbouteille>
-    </bouteille>
+    
 
 </stock>
