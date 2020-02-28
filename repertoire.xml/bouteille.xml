@@ -25,7 +25,25 @@
     </bouteille>
 
     <!-- deuxieme Bouteille-->
-
+    <bouteille type="plastique" code_barre="3274080005003">
+        <marque>Cristalline</marque>
+        <source departement="Loiret">St-Cyr la Source</source>
+        <volume unite="cL">150</volume>
+        <donnees_chimiques>
+            <pH>7,45</pH>
+            <concentration_en_ion>
+                <ion_positif>
+                    <calcium unite="mg/L">71</calcium>
+                    <magnesium unite="mg/L">5,5</magnesium>
+                </ion_positif>
+                <ion_negatif>
+                    <chlorure unite="mg/L">20</chlorure>
+                    <nitrate unite="mg/L">1</nitrate>
+                </ion_negatif>
+            </concentration_en_ion>
+            <materiaux_presents>Fer</materiaux_presents>
+        </donnees_chimiques>
+    </bouteille>
  
     <!-- Troisième Bouteille-->
 
