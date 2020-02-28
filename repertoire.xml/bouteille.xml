@@ -26,7 +26,7 @@
 
     <!-- deuxieme Bouteille-->
     <bouteille type="plastique" code_barre="3274080005003">
-        <marque>Cristalline</marque>
+        <marque>Volvic</marque>
         <source departement="Loiret">St-Cyr la Source</source>
         <volume unite="cL">150</volume>
         <donnees_chimiques>
