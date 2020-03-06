@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../mon premier site/css/style.css">
+</head>
+<body>
+    
+    <a href="../index.html"> Menu</a>
+
+    <hr>
+
+    <form name="mon-formulaire1" action="page-envoi.html" method="get">
+        <p>
+           <input type="radio" name="civi" value="Mme" /> Madame
+           <input type="radio" name="civi" value="Mlle" /> Mademoiselle
+           <input type="radio" name="civi" value="Mr" /> Monsieur et Madame
+        </p>
+        <p>
+           Votre prénom :<br />
+           <input type="text" name="prenom" value="" />
+        </p>
+        <p>
+           Votre nom :<br />
+           <input type="text" name="nom" value="" />
+        </p>
+        <p>
+           Votre mot de passe :<br />
+           <input type="password" name="passe" value="" />
+        </p>
+       
+
+        <p>
+           Vous êtes<br />
+           <select name="profil">
+              <option value="homme">Un homme</option>
+              <option value="femme">Une femme</option>
+              <option value="enfant">Un couple </option>
+           </select>
+        </p>
+        <p>
+           Quel type de voyage recherchez vous ?<br />
+           <input type="checkbox" name="interet" value="Escapade" /> Escapade
+           <input type="checkbox" name="interet" value="avent" /> Aventure
+           <input type="checkbox" name="interet" value="relax" /> relaxation
+        </p>
+        <p>
+           Votre message :<br />
+           <textarea name="le-message" rows="6" cols="40">Vous pouvez saisir ici un message.</textarea>
+        </p>
+        <p>
+           <input type="submit" value="Envoyer" />
+           <input type="reset" value="Annuler" />
+        </p>
+
+
+        <ul>
+        
+            <li><a href="mailto:lassoud@free.fr">Nous contacter</a></li>
+        </ul>
+
+
+        </form>
+
+
+
+
+
+
+</body>
+</html>

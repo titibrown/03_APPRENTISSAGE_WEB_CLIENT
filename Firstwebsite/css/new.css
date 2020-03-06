@@ -1,0 +1,79 @@
+
+h1 {
+
+    color: blue;
+    text-align: center;
+}
+p{
+
+background: yellow;
+}
+
+
+div{
+
+
+    font-size: 20px;
+}
+
+
+p{
+text-align: center;
+
+}
+
+h2{
+
+    border: 2px solid #009860;
+
+    /* ! none : pas de bordure (par défaut);
+! dotted : pointillés;
+! dashed : tirets;
+! solid : un trait simple;
+! double : bordure double;
+! groove : en relief;
+! ridge : autre effet relief;
+! inset : effet 3D global enfoncé;
+! outset : effet 3D global surélevé */
+}
+
+body{ 
+    background-color:lightseagreen ;
+/* background-color : valeur permet de donner une couleur de
+fond.
+! Valeurs : n’importe quelle couleur CSS
+! Sur un élément bloc (prend toute la largeur) ou inline (prend la
+largeur du contenu)*/
+/*
+
+background-image : valeur permet de définir une image
+de fond pour l'élément
+! Valeur : none ou url("monimage.png" )
+! Par défaut : l’image se répète horizontalement et verticalement
+(comme une mosaïque) 
+
+
+background-repeat permet de définir la façon dont l’image va se
+répéter
+
+
+body {
+ background-image: url("img/bg.png");
+}
+
+
+background-position : valeur permet de donner la position de l’image de fond par
+rapport au coin haut gauche. A utiliser avec background-repeat: no-repeat.
+! Valeurs possibles :
+– Des valeurs numériques sur des axes x et y : background-position: 10px 30px;
+– Valeurs en toute lettre background-position:right top (en haut à droite):
+! top : en haut
+! bottom : en bas
+! left : à gauche
+! center : centré
+! right : à droite
+
+*/
+
+}
+
