@@ -1,0 +1,19 @@
+* [lang^=fr] {
+    color:green;
+  }
+  
+  *.warning {
+    color:red;
+  }
+  
+  *#maincontent {
+    border: 1px solid blue;
+  }
+  
+  .floating {
+    float: left;
+  }
+  
+  .floating + * {
+    clear: left;
+  }
