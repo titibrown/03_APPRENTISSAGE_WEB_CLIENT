@@ -6,6 +6,8 @@
         body{
             font-family: arial, sans-serif;
             font-size: 15px;
+            background-image: url(image/sa.jpg);
+          
         }
         h1,h2,h3,h4{
             color: #444;

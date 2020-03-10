@@ -1,0 +1,23 @@
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1~p,h2~p,h3~p,h4~p,h5~p,h6~p{
+    color: red;
+}
+p+a{
+    color: azure
+}
+section a{
+    color: blue;
+}
+section>p{
+    background-color: cyan;
+}
+
+
+
+
+
+
