@@ -1,0 +1,19 @@
+img{
+
+float: left;
+
+
+}
+
+p{
+
+
+clear: left;
+
+}
+.over{
+
+height: 150px;
+background-color: crimson;
+overflow: hidden;
+}
