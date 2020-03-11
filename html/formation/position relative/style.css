@@ -1,0 +1,17 @@
+p {
+    border: 1px solid black;
+    width: 200px;
+    position: relative;
+    left: 50px;
+    top: 05px;
+}
+
+.fix{
+
+
+position: fixed;
+left: 100px;
+background-color: blue;
+
+
+}
