@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+</head>
+<body>
+    
+<script>
+alert('Bonjour nous sommes le Lundi 16 mars');
+// la fonction affiche une boîte de dialogue avec "Bonjour"
+</script>
+
+
+<script>
+    instruction_1; // Ceci est ma première instruction
+    instruction_2;
+    /* La troisième instruction ci-dessous,
+    avec un commentaire sur deux lignes */
+    instruction_3;
+    </script>
+
+</body>
+</html>
