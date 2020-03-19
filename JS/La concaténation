@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> La concaténation</title>
+</head>
+
+<body>
+
+
+    <script>
+        var hi = 'Bonjour ', name =
+            'toi', result;
+        result = hi + name;
+        alert(result);
+        // Affiche : « Bonjour toi »
+    </script>
+
+
+
+<!-- OU bien une autre manière   -->> 
+
+
+    <script>
+        var text = 'Bonjour ';
+        text += 'toi';
+        alert(text);
+    // Affiche « Bonjour toi ».
+    </script>
+
+
+
+<!--On peut convertir un nombre en chaîne de caractères avec l'astuce suivante -->>
+
+<script>
+var text, number1 = 4, number2 = 2;
+text = number1 + '' + number2; /* on ajoute une chaîne de caractères vide
+entre les deux nombres pour permettre une concaténation sans calcul */
+alert(text); // Affiche : « 42 »
+</script>
+
+
+
+
+</body>
+
+</html>
