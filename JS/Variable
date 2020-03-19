@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    /*
+    <script>
+        var myVariable;
+        myVariable = 2;
+    </script>
+
+    ou
+    <script>
+        var myVariable = 2;
+    </script>
+    */
+
+    <script>
+
+        var monTexte;
+        monTexte = "Une variable peut enfin être de type booléen boolean avec deux états possibles 
+        vrai ou faux True ou false";
+
+    </script>
+
+<script>
+    var number1 = 3,
+    number2 = 2, result;
+    result = number1 *
+    number2;
+    alert(result); //
+    Affiche : « 6 »
+    </script>
+
+
+</body>
+
+</html>
