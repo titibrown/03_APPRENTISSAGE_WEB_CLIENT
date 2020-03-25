@@ -15,3 +15,10 @@ function add_red_star(initial_text) {
 input[2].disabled = true;
 input[2].style.backgroundColor = "#c5c9ca";
 input[2].style.color = "#f9ebeb;";
+
+var contact = document.getElementById("contactez");
+var alreadyContact = document.createTextNode("Déjà contacter");
+contact.replaceChild(alreadyContact, contact.firstChild); 
+
+document.querySelector('h3').textContent = 'Déjà contacté';
+        document.querySelector('h3').style.background = 'red';
